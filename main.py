@@ -152,12 +152,12 @@ if __name__ == "__main__":
         device=device,
     )
     
-    files = os.listdir('./Kiir')
-    for file in files:
-        if file.endswith('.m4a'):
-            input_file = "./Kiir/" + file
-            e2e(input_file, pipe)
+    # files = os.listdir('./Kiir')
+    # for file in files:
+    #     if file.endswith('.m4a'):
+    #         input_file = "./Kiir/" + file
+    #         e2e(input_file, pipe)
 
-    # input_file = sys.argv[1]
-    # e2e(input_file, pipe)
+    input_file = sys.argv[1]
+    e2e(input_file, pipe)
 
